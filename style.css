@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background-color: #fec5bb;
+    font-family: "nunito", "sans-serif";
+
+}
+
+#mainNavbar .nav-item .nav-link{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#5a189a;
+}
+
+#heading span{
+    color:#5a189a ;
+}
+h1{
+    font-weight: 100;
+    font-size:2rem;
+    font-family: "nunito", "sans-serif";
+}
+@media (max-width:1200px){
+    h1{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    
+}
+
+ h2{
+    color: #5a189a;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+ .blurb p{
+    color: #5a189a;
+    font-size: 1.125rem;
+    font-weight:100;
+    line-height:2.0;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled{
+    background-color: #efd3d7;
+    opacity: 0.9;
+    transition: background 600ms;
+}
+
+ a{
+    font-family: "satisfy", "sans-serif";
+}
